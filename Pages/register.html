@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="../stylesheets/register.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <img src="../images/Ada (1).png" alt="logo">
+      <nav>
+        <ul>
+          <li><a href="index.html">About Me</a></li>
+          <li><a href="contact.html">Contact</a></li> 
+          <li><a href="register.html">Register</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+        </ul>
+        <span class="fa fa-bars menu-icon"></span>
+      </nav>
+    </header>
+
+    <div class="form-wrapper">
+      <div class="container">
+          <h1>Register</h1>
+          <p>Enter your details below to register.</p>
+          <form id="registerField">
+              <label for="fname">First Name</label>
+              <input type="text" placeholder="Enter first name" required>
+              <label for="lname">Last Name</label>
+              <input type="text" placeholder="Enter last name" required>
+              <label for="phone">Phone</label>
+              <input type="tel" placeholder="Enter phone number" required>
+              <label for="gender">Gender</label>
+              <select name="gender" id="gender">
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+                <option value="not-say">Prefer not to say</option>
+              </select>
+              <label for="country">Country</label>
+              <input type="text" placeholder="Enter your country" required>
+              <label for="state">State/Province</label>
+              <input type="text" placeholder="Enter your state" required>
+              <label for="username">Username</label>
+              <input type="text" placeholder="Enter username" required>
+              <label for="passwd">Password</label>
+              <input type="password" placeholder="Enter password" required>
+              <label for="confirm passwd">Confirm Password</label>
+              <input type="password" placeholder="confirm password" required>
+              <input type="submit" class="submit btn"  value="Submit">
+
+          </form>
+      </div>
+    </div>
+
+    
+      <script src="register.js"></script>
+       
+    
+    </body>
+    </html>
+    
+</body>
+</html>
